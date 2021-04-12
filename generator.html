@@ -29,47 +29,44 @@
 				</div>
 				<div class="player">
                     <h5>Note A</h5>
-                    <audio controls autoplay>
-                        <source src="Note A.mp3" type="audio/mpeg">
-                    </audio>
+                    <input type="button" value="PLAY" onclick="playA()"></input>
+                    <input type="button" value="STOP" onclick="stopA()"></input>
+                    <audio controls loop id="audioA" src="Note A.mp3"></audio>
 
                     <h5>Note B</h5>
-                    <audio controls autoplay>
-                        <source src="Note B.mp3" type="audio/mpeg">
-                    </audio>
+                    <input type="button" value="PLAY" onclick="playB()"></input>
+                    <input type="button" value="STOP" onclick="stopB()"></input>
+                    <audio controls loop id="audioB" src="Note B.mp3"></audio>
 
                     <h5>Note C</h5>
-                    <audio controls autolay>
-                        <source src="Note C.mp3" type="audio/mpeg">
-                    </audio>
+                    <input type="button" value="PLAY" onclick="playC()"></input>
+                    <input type="button" value="STOP" onclick="stopC()"></input>
+                    <audio controls loop id="audioC" src="Note C.mp3"></audio>
 
                     <h5>Note D</h5>
-                    <audio controls autoplay>
-                        <source src="Note D.mp3" type="audio/mpeg">
-                    </audio>
+                    <input type="button" value="PLAY" onclick="playD()"></input>
+                    <input type="button" value="STOP" onclick="stopD()"></input>
+                    <audio controls loop id="audioD" src="Note D.mp3"></audio>
 
                     <h5>Note E</h5>
-                    <audio controls autoplay>
-                        <source src="Note E.mp3" type="audio/mpeg">
-                    </audio>
+                    <input type="button" value="PLAY" onclick="playE()"></input>
+                    <input type="button" value="STOP" onclick="stopE()"></input>
+                    <audio controls loop id="audioE" src="Note E.mp3"></audio>
 
                     <h5>Note F</h5>
-                    <audio controls autoplay>
-                        <source src="Note F.mp3" type="audio/mpeg">
-                    </audio>
-                
+                    <input type="button" value="PLAY" onclick="playF()"></input>
+                    <input type="button" value="STOP" onclick="stopF()"></input>
+                    <audio controls loop id="audioF" src="Note F.mp3"></audio>
+
                     <h5>Note G</h5>
-                    <audio controls autoplay>
-                        <source src="Note G.mp3" type="audio/mpeg">
-                    </audio>
-
-                    <div class="playbtn"><img src="/Pix/icon_play.png" id="mute" class="btnImg active" onclick="toggleMute();" onmouseover="msg('Press Play to Resume')" alt="Play/Pause" role="button" style="pointer-events: auto;">
-                    </div>
-
+                    <input type="button" value="PLAY" onclick="playG()"></input>
+                    <input type="button" value="STOP" onclick="stopG()"></input>
+                    <audio controls loop id="audioG" src="Note G.mp3"></audio>
 				</div>
             </main>
         </div>
         <footer>Created by Taylor Lightbourne</footer>
     </div>   
 </body>
+<script src="script.js"></script>
 </html>
