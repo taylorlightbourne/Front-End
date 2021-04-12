@@ -1,3 +1,42 @@
+// welcome page script
+const contents = document.querySelector("#quoteAPI");
+const key = "9607730c37d005ee6fa9fb6d618c9cfb53885152"
+
+const quoteData = async () => {
+    let getQuoteData = await fetch(`https://zenquotes.io/api/random/${key}`, { mode: 'no-cors'});
+    let formatQuote = await getQuoteData.json();
+    for (let quote of formatQuote.data) {
+        console.log(quote);
+        const quoteContainer = document.createElement("h3");
+        quoteContainer.classname = "randomQuote";
+        quoteContainer.innerHTML = quote['q'];
+        const authorContainer = document.createElement("h4");
+        authorContainer.classname = "author";
+        authorContainer.innerHTML = quote['a'];
+        contents.append(quoteContainer, authorContainer);
+    }
+    return formatQuote;
+}
+quoteData();
+
+// const quoteData = () => {
+//     fetch(`https://zenquotes.io/api/random/${key}`, { mode: 'no-cors'})
+    
+//     .then((response) => response.json())
+//     .then((data) =>  {
+//         console.log(data)
+//         const quoteContainer = document.createElement("h3");
+//         quoteContainer.classname = "randomQuote";
+//         quoteContainer.innerHTML = data['q'];
+//         const authorContainer = document.createElement("h4");
+//         authorContainer.classname = "author";
+//         authorContainer.innerHTML = data['a'];
+//         contents.append(quoteContainer, authorContainer);
+//     })
+// };
+
+// quoteData();
+
 // generator script
 const audioA = document.getElementById("audioA");
 const audioB = document.getElementById("audioB");
@@ -7,7 +46,7 @@ const audioE = document.getElementById("audioE");
 const audioF = document.getElementById("audioF");
 const audioG = document.getElementById("audioG");
 
-// play and pause functions
+// play and pause functions - generator
 function playA() {
     audioA.play();
 }
@@ -50,33 +89,3 @@ function playG() {
 function stopG() {
     audioG.pause();
 }
-
-//loop function
-function enableLoop() { 
-  audioA.loop = true;
-  audioA.load();
-} 
-
-//<html>
-// <button onclick="enableLoop()" type="button">Enable loop</button>
-// <button onclick="disableLoop()" type="button">Disable loop</button>
-// <button onclick="checkLoop()" type="button">Check loop status</button>
-// let loopA = document.getElementById("noteA");
-
-// function enableLoop() { 
-//   loopA.loop = true;
-//   loopA.load();
-// } 
-
-//music script
-// const musicContainer = document.querySelector(".music-contents");
-
-// const musicData = async () => {
-//     let getMusicData = await fetch("https://api.spotify.com");
-//     let formatMusic = await getMusicData.json();
-
-//     for (let music of formatMusic.data) {
-      
-//     }
-//     return formatMusic;
-// }
