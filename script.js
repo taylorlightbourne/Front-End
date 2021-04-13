@@ -1,41 +1,21 @@
 // welcome page script
-const contents = document.querySelector("#quoteAPI");
-const key = "9607730c37d005ee6fa9fb6d618c9cfb53885152"
 
-const quoteData = async () => {
-    let getQuoteData = await fetch(`https://zenquotes.io/api/random/${key}`, { mode: 'no-cors'});
-    let formatQuote = await getQuoteData.json();
-    for (let quote of formatQuote.data) {
-        console.log(quote);
+const quoteData = () => {
+    fetch("http://quotes.rest/qod.json")
+    .then((response) => response.json())
+    .then((data) => {
+        console.log(data);
+        const contents = document.querySelector("#quoteAPI");
         const quoteContainer = document.createElement("h3");
         quoteContainer.classname = "randomQuote";
-        quoteContainer.innerHTML = quote['q'];
+        quoteContainer.innerHTML = data['contents']['quotes'][0]['quote'];
         const authorContainer = document.createElement("h4");
         authorContainer.classname = "author";
-        authorContainer.innerHTML = quote['a'];
+        authorContainer.innerHTML = data['contents']['quotes'][0]['author'];
         contents.append(quoteContainer, authorContainer);
-    }
-    return formatQuote;
-}
+      });
+  };
 quoteData();
-
-// const quoteData = () => {
-//     fetch(`https://zenquotes.io/api/random/${key}`, { mode: 'no-cors'})
-    
-//     .then((response) => response.json())
-//     .then((data) =>  {
-//         console.log(data)
-//         const quoteContainer = document.createElement("h3");
-//         quoteContainer.classname = "randomQuote";
-//         quoteContainer.innerHTML = data['q'];
-//         const authorContainer = document.createElement("h4");
-//         authorContainer.classname = "author";
-//         authorContainer.innerHTML = data['a'];
-//         contents.append(quoteContainer, authorContainer);
-//     })
-// };
-
-// quoteData();
 
 // generator script
 const audioA = document.getElementById("audioA");
