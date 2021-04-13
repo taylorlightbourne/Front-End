@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="welcome.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 </head>
 <body>
     <div class="main-container">
         <div class ="welcomePage">
-            <div class="scroll">
+            <!-- <div class="scroll">
 				<div class="scroll-container">
 				  <div class="scroll-bar" id="scrollBar"></div>
 				</div>  
-			</div>
+			</div> -->
             <nav class="navbar">
-                <div id="logo"></div>
+                <div id="logo">
+                    <img src="bol sonore logo.png" width="160px" height="60px">
+                </div>
                 <div class="topnav">
                     <a href="#home">Home</a>
                     <a href="#about">About</a>
@@ -23,14 +29,14 @@
                 </div>
             </nav>
             <main class="welcome-contents">
-                <h1 id="heading">bol sonore</h1>
-                <div id="quoteAPI">
-                    <!-- Inspirational quotes provided by <a href="https://zenquotes.io/" target="_blank">ZenQuotes API</a> -->
-                </div>
-                <button>Generate Your Own Sound Bath</button>
+                <img src="bol sonore logo.png" width="500px" height="250px">
+                <button type="button" class="btn btn-lg btn-light">Generate Your Own Sound Bath</button>
+                <div id="quoteAPI"></div>
             </main>
         </div>
-        <footer>Created by Taylor Lightbourne</footer>
+        <div class="footer">
+            <footer>Created by Taylor Lightbourne</footer>
+        </div>
     </div>   
 </body>
 <script src="script.js"></script>

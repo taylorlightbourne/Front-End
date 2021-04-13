@@ -6,12 +6,12 @@ const quoteData = () => {
     .then((data) => {
         console.log(data);
         const contents = document.querySelector("#quoteAPI");
-        const quoteContainer = document.createElement("h3");
+        const quoteContainer = document.createElement("p");
         quoteContainer.classname = "randomQuote";
         quoteContainer.innerHTML = data['contents']['quotes'][0]['quote'];
-        const authorContainer = document.createElement("h4");
+        const authorContainer = document.createElement("p");
         authorContainer.classname = "author";
-        authorContainer.innerHTML = data['contents']['quotes'][0]['author'];
+        authorContainer.innerHTML = "~ " + data['contents']['quotes'][0]['author'];
         contents.append(quoteContainer, authorContainer);
       });
   };
@@ -69,3 +69,5 @@ function playG() {
 function stopG() {
     audioG.pause();
 }
+
+

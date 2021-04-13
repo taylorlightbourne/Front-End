@@ -1,0 +1,71 @@
+.main-container {
+    height: 100vh;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    overflow: hidden;
+    background-image: url('https://www.publicdomainpictures.net/pictures/230000/nahled/light-blue-background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.welcomePage {
+    width: 1300px;
+    height: 800px;
+    background-image: url('https://dharmaranch.com/wp-content/uploads/2019/05/singing-bowl-lady-sound-bath-dharma-ranch.jpg');
+    background-repeat: no-repeat;
+    background-size: 110%;
+    padding: 25px;
+    border-radius: 2%;
+    color: white;
+    box-shadow: 10px 10px 5px grey;
+    font-family: 'Lexend', sans-serif;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar #logo {
+    padding-left: 30px;
+}
+.topnav a {
+    padding-right: 30px;
+    font-size: larger;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.topnav a:hover {
+    padding-right: 30px;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #ffff;
+}
+main {
+    margin-top: 4%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-shadow: 2px 2px 4px #ffff;
+    
+}
+#quoteAPI {
+    margin-top: 40px;
+    width: 60%;
+    letter-spacing: 1px;
+    font-size: large;
+}
+.footer {
+    align-items: center;
+    padding-top: 20px;
+    font-size:x-large;
+}
+
