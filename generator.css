@@ -78,12 +78,6 @@ main {
     height: 45%;
     margin: 50px;
 }
-.footer {
-    font-size:x-large;
-    align-items: center;
-    padding-top: 20px;
-    
-}
 audio {
     display:none;
 }
@@ -94,4 +88,14 @@ audio {
 .main-container h5 {
     font-weight: bolder;
     font-size: x-large;
+}
+p {
+    letter-spacing: 1px;
+    font-size: large;
+}
+.footer {
+    font-size:x-large;
+    align-items: center;
+    padding-top: 20px;
+    
 }
