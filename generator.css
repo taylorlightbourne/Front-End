@@ -1,10 +1,6 @@
-.main-container {
+.generatorPage {
     height: 100vh;
     width: 100%; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     position: absolute;
     overflow: hidden;
     background-image: url('https://www.publicdomainpictures.net/pictures/230000/nahled/light-blue-background.jpg');
@@ -14,14 +10,10 @@
 }
 .navbar {
     width: 100%;
-    height: 100px;
     background-image: url('https://dharmaranch.com/wp-content/uploads/2019/05/singing-bowl-lady-sound-bath-dharma-ranch.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     padding-right: 40px;
     box-shadow: 5px 5px 5px grey;
 }
@@ -33,21 +25,34 @@
     font-size:x-large;
     color: #FFFFFF;
     text-decoration: none;
+    
 }
 .topnav a:hover {
     color: white;
     text-shadow: 2px 2px 4px #ffff;
 }
-main {
-    margin-top: 4%;
-    height: 100%;
+.main-container {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    text-shadow: 2px 2px 4px #ffff;
+    margin-top: 40px;
+    flex-direction: column;
+    font-weight: bold;
+}
+main {
+    width: 1300px;
+    height: 750px;
+    background-image: url('https://dharmaranch.com/wp-content/uploads/2019/05/singing-bowl-lady-sound-bath-dharma-ranch.jpg');
+    background-repeat: no-repeat;
+    background-size: 110%;
+    padding: 25px;
+    border-radius: 2%;
+    color: white;
+    box-shadow: 10px 10px 5px grey;
 }
 .contents-heading {
     text-align: center;
+    text-shadow: 2px 2px 4px #ffff;
 }
 .bowlPictures {
     display:flex;
@@ -58,17 +63,15 @@ main {
     align-items: flex-end;
     flex-direction: row;
 }
-/* #A {
-    border-radius: 25%;
-    box-shadow: 5px 5px 5px white;
-} */
 .player {
     justify-content: space-between;
     text-align: center;
 }
 .footer {
-    align-items: center;
     font-size:x-large;
+    align-items: center;
+    padding-top: 20px;
+    
 }
 audio {
     display:none;
