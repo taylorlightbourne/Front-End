@@ -38,47 +38,48 @@
                             <img src="noteC.png" id="C" width="200px" height="200px">
                         </div>
                         <div class="player">
-                            <h5>Note A</h5>
-                            <input type="button" value="PLAY" onclick="playA(), activeImageA()"></input>
-                            <input type="button" value="STOP" onclick="stopA(), disableImageA()"></input>
-                            <audio controls loop id="audioA" src="Note A.mp3"></audio>
-
-                            <h5>Note B</h5>
-                            <input type="button" value="PLAY" onclick="playB(), activeImageB()"></input>
-                            <input type="button" value="STOP" onclick="stopB(), disableImageB()"></input>
-                            <audio controls loop id="audioB" src="Note B.mp3"></audio>
-
-                            <h5>Note C</h5>
-                            <input type="button" value="PLAY" onclick="playC(), activeImageC()"></input>
-                            <input type="button" value="STOP" onclick="stopC(),
-                            disableImageC()"></input>
-                            <audio controls loop id="audioC" src="Note C.mp3"></audio>
-
-                            <h5>Note D</h5>
-                            <input type="button" value="PLAY" onclick="playD(),
-                            activeImageD()"></input>
-                            <input type="button" value="STOP" onclick="stopD(), disableImageD()"></input>
-                            <audio controls loop id="audioD" src="Note D.mp3"></audio>
-
-                            <h5>Note E</h5>
-                            <input type="button" value="PLAY" onclick="playE(),
-                            activeImageE()"></input>
-                            <input type="button" value="STOP" onclick="stopE(), disableImageE()"></input>
-                            <audio controls loop id="audioE" src="Note E.mp3"></audio>
-
-                            <h5>Note F</h5>
-                            <input type="button" value="PLAY" onclick="playF(),
-                            activeImageF()"></input>
-                            <input type="button" value="STOP" onclick="stopF(),
-                            disableImageF()"></input>
-                            <audio controls loop id="audioF" src="Note F.mp3"></audio>
-
-                            <h5>Note G</h5>
-                            <input type="button" value="PLAY" onclick="playG(),
-                            activeImageG()"></input>
-                            <input type="button" value="STOP" onclick="stopG(),
-                            disableImageG()"></input>
-                            <audio controls loop id="audioG" src="Note G.mp3"></audio>
+                            <div id="containerA">
+                                <h5>Note A</h5>
+                                <button type="button" class="btn btn-light" onclick="playA(), activeImageA()">PLAY</button>
+                                <button type="button" class="btn btn-light" onclick="stopA(), disableImageA()">STOP</button>
+                                <audio controls loop id="audioA" src="Note A.mp3"></audio>
+                            </div>
+                            <div id="containerB">
+                                <h5>Note B</h5>
+                                <button type="button" class="btn btn-light" onclick="playB(), activeImageB()">PLAY</button>
+                                <button type="button" class="btn btn-light" onclick="stopB(), disableImageB()">STOP</button>
+                                <audio controls loop id="audioB" src="Note B.mp3"></audio>
+                            </div>
+                            <div id="containerC">
+                                <h5>Note C</h5>
+                                <button type="button" class="btn btn-light" onclick="playC(), activeImageC()">PLAY</button>
+                                <button type="button" class="btn btn-light" onclick="stopC(), disableImageC()">STOP</button>
+                                <audio controls loop id="audioC" src="Note C.mp3"></audio>
+                            </div>
+                            <div id="containerD">
+                                <h5>Note D</h5>
+                                <button type="button" class="btn btn-light" onclick="playD(), activeImageD()">PLAY</button>
+                                <button type="button" class="btn btn-light" onclick="stopD(), disableImageD()">STOP</button>
+                                <audio controls loop id="audioD" src="Note D.mp3"></audio>
+                            </div>
+                            <div id="containerE">
+                                <h5>Note E</h5>
+                                <button type="button" class="btn btn-light" onclick="playE(), activeImageE()">PLAY</button>
+                                <button type="button" class="btn btn-light" onclick="stopE(), disableImageE()">STOP</button>
+                                <audio controls loop id="audioE" src="Note E.mp3"></audio>
+                            </div>
+                            <div id="containerF">
+                                <h5>Note F</h5>
+                                <button type="button" class="btn btn-light" onclick="playF(), activeImageF()">PLAY</button>
+                                <button type="button" class="btn btn-light" onclick="stopF(), disableImageF()">STOP</button>
+                                <audio controls loop id="audioF" src="Note F.mp3"></audio>
+                            </div>
+                            <div id="containerG">
+                                <h5>Note G</h5>
+                                <button type="button" class="btn btn-light" onclick="playG(), activeImageG()">PLAY</button>
+                                <button type="button" class="btn btn-light" onclick="stopG(), disableImageG()">STOP</button>
+                                <audio controls loop id="audioG" src="Note G.mp3"></audio>
+                            </div>
                         </div>
                     </main>
                     <div class="footer">
