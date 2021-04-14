@@ -1,39 +1,67 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    <div class="main-container">
-        <div class ="contactPage">
-            <div class="scroll">
-				<div class="scroll-container">
-				  <div class="scroll-bar" id="scrollBar"></div>
-				</div>  
-			</div>
+    <div class="contactPage">
             <nav class="navbar">
-                <div id="logo"></div>
+                <div id="logo">
+                    <a href="welcome.html"><img src="bol sonore logo.png" width="160px" height="60px"></a>
+                </div>
                 <div class="topnav">
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#generator">Generator</a>
-                    <a href="#music">Music</a>
+                    <a href="about.html">About</a>
+                    <a href="generator.html">Generator</a>
+                    <a href="music.html">Music</a>
+                    <a href="contact.html">Contact</a>
                 </div>
             </nav>
-            <main class="contact-contents">
-                <h2>Contact Us</h2>
-                <form>
-                    <input type="text" id="fname" name="fname" placeholder="First Name"><br><br>
-                    <input type="text" id="lname" name="lname" placeholder="Last Name"><br><br>
-                    <input type="text" id="email" name="email" placeholder="Email Address"><br><br>
-                    <input type="text" id="msg" name="message" placeholder="Leave Us a Message"><br><br>
-                    <input type="submit" value="Submit">
-                </form> 
-            </main>
+            <div class="main-container">
+                <main class="contact-contents">
+                    <div class="container">
+                        <div class="rowAll">
+                            <div class="col-md-6 " id="form_container">
+                                <h2>Contact Us</h2> 
+                                <p> Please send your message below. We will get back to you at the earliest! </p>
+                                <form role="form" method="post" id="reused_form">
+                            </div>
+                             <div class="row">
+                                <div class="col-sm-6 form-group">
+                                    <label for="name"> Your Name:</label>
+                                    <input type="text" class="form-control" id="name" name="name" required>
+                                </div>
+                                <div class="col-sm-6 form-group">
+                                    <label for="email"> Email:</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 form-group">
+                                    <label for="message"> Message:</label>
+                                    <textarea class="form-control" type="textarea" id="message" name="message" maxlength="6000" rows="7"></textarea>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 form-group">
+                                        <button type="submit" class="btn btn-lg btn-light pull-right" >Send &rarr;</button>
+                                    </div>
+                                </div>
+                                </form>
+                                <div id="success_message" style="width:100%; height:100%; display:none; "> <h3>Posted your message successfully!</h3> </div>
+                                <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Sorry there was an error sending your form. </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <footer>Created by Taylor Lightbourne</footer>
+            </div>
         </div>
-        <footer>Created by Taylor Lightbourne</footer>
     </div>   
 </body>
+<script src="script.js">
+
+</script>
 </html>
