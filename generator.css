@@ -58,6 +58,10 @@ main {
     align-items: flex-end;
     flex-direction: row;
 }
+/* #A {
+    border-radius: 25%;
+    box-shadow: 5px 5px 5px white;
+} */
 .player {
     justify-content: space-between;
     text-align: center;

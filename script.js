@@ -70,4 +70,148 @@ function stopG() {
     audioG.pause();
 }
 
+// change picture when play
 
+function activeImageA() {
+    if (document.getElementById("A").src == "noteA-glow.png") 
+        {
+            document.getElementById("A").src = "noteA-glow.png";
+        }
+        else 
+        {
+            document.getElementById("A").src = "noteA-glow.png";
+        }
+    }
+function activeImageB() {
+    if (document.getElementById("B").src == "noteB-glow.png") 
+        {
+            document.getElementById("B").src = "noteB-glow.png";
+        }
+        else 
+        {
+            document.getElementById("B").src = "noteB-glow.png";
+        }
+    }
+function activeImageC() {
+    if (document.getElementById("C").src == "noteC-glow.png") 
+        {
+            document.getElementById("C").src = "noteC-glow.png";
+        }
+        else 
+        {
+            document.getElementById("C").src = "noteC-glow.png";
+        }
+    }
+function activeImageD() {
+    if (document.getElementById("D").src == "noteD-glow.png") 
+    {
+        document.getElementById("D").src = "noteD-glow.png";
+    }
+    else 
+    {
+        document.getElementById("D").src = "noteD-glow.png";
+    }
+}
+function activeImageE() {
+    if (document.getElementById("E").src == "noteE-glow.png") 
+    {
+        document.getElementById("E").src = "noteE-glow.png";
+    }
+    else 
+    {
+        document.getElementById("E").src = "noteE-glow.png";
+    }
+}
+function activeImageF() {
+    if (document.getElementById("F").src == "noteF-glow.png") 
+        {
+            document.getElementById("F").src = "noteF-glow.png";
+        }
+        else 
+        {
+            document.getElementById("F").src = "noteF-glow.png";
+        }
+    }
+function activeImageG() {
+    if (document.getElementById("G").src == "noteG-glow.png") 
+    {
+        document.getElementById("G").src = "noteG-glow.png";
+    }
+    else 
+    {
+        document.getElementById("G").src = "noteG-glow.png";
+    }
+}
+
+// change picture back to original when stop
+
+function disableImageA() {
+    if (document.getElementById("A").src == "noteA.png") 
+        {
+            document.getElementById("A").src = "noteA.png";
+        }
+        else 
+        {
+            document.getElementById("A").src = "noteA.png";
+        }
+    }
+function disableImageB() {
+    if (document.getElementById("B").src == "noteB.png") 
+        {
+            document.getElementById("B").src = "noteB.png";
+        }
+        else 
+        {
+            document.getElementById("B").src = "noteB.png";
+        }
+    }
+function disableImageC() {
+    if (document.getElementById("C").src == "noteC.png") 
+        {
+            document.getElementById("C").src = "noteC.png";
+        }
+        else 
+        {
+            document.getElementById("C").src = "noteC.png";
+        }
+    }
+function disableImageD() {
+    if (document.getElementById("D").src == "noteD.png") 
+    {
+        document.getElementById("D").src = "noteD.png";
+    }
+    else 
+    {
+        document.getElementById("D").src = "noteD.png";
+    }
+}
+function disableImageE() {
+    if (document.getElementById("E").src == "noteE.png") 
+    {
+        document.getElementById("E").src = "noteE.png";
+    }
+    else 
+    {
+        document.getElementById("E").src = "noteE.png";
+    }
+}
+function disableImageF() {
+    if (document.getElementById("F").src == "noteF.png") 
+        {
+            document.getElementById("F").src = "noteF.png";
+        }
+        else 
+        {
+            document.getElementById("F").src = "noteF.png";
+        }
+    }
+function disableImageG() {
+    if (document.getElementById("G").src == "noteG.png") 
+    {
+        document.getElementById("G").src = "noteG.png";
+    }
+    else 
+    {
+        document.getElementById("G").src = "noteG.png";
+    }
+}

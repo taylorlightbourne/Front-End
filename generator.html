@@ -28,48 +28,55 @@
 					<h5>Create Your Own Sound Bath</h5>
 				</div>
                 <div class="bowlPictures">
-                    <img src="noteB.png" id="A" width="140px" height="140px">
-                    <img src="noteA.png" id="B" width="150px" height="150px">
-                    <img src="noteG.png" id="C" width="160px" height="160px">
-                    <img src="noteF.png" id="D" width="170px" height="170px">
+                    <img src="noteB.png" id="B" width="140px" height="140px">
+                    <img src="noteA.png" id="A" width="150px" height="150px">
+                    <img src="noteG.png" id="G" width="160px" height="160px">
+                    <img src="noteF.png" id="F" width="170px" height="170px">
                     <img src="noteE.png" id="E" width="180px" height="180px">
-                    <img src="noteD.png" id="F" width="190px" height="190px"> 
-                    <img src="noteC.png" id="G" width="200px" height="200px">
+                    <img src="noteD.png" id="D" width="190px" height="190px"> 
+                    <img src="noteC.png" id="C" width="200px" height="200px">
                 </div>
 				<div class="player">
                     <h5>Note A</h5>
-                    <input type="button" value="PLAY" onclick="playA()"></input>
-                    <input type="button" value="STOP" onclick="stopA()"></input>
+                    <input type="button" value="PLAY" onclick="playA(), activeImageA()"></input>
+                    <input type="button" value="STOP" onclick="stopA(), disableImageA()"></input>
                     <audio controls loop id="audioA" src="Note A.mp3"></audio>
 
                     <h5>Note B</h5>
-                    <input type="button" value="PLAY" onclick="playB()"></input>
-                    <input type="button" value="STOP" onclick="stopB()"></input>
+                    <input type="button" value="PLAY" onclick="playB(), activeImageB()"></input>
+                    <input type="button" value="STOP" onclick="stopB(), disableImageB()"></input>
                     <audio controls loop id="audioB" src="Note B.mp3"></audio>
 
                     <h5>Note C</h5>
-                    <input type="button" value="PLAY" onclick="playC()"></input>
-                    <input type="button" value="STOP" onclick="stopC()"></input>
+                    <input type="button" value="PLAY" onclick="playC(), activeImageC()"></input>
+                    <input type="button" value="STOP" onclick="stopC(),
+                    disableImageC()"></input>
                     <audio controls loop id="audioC" src="Note C.mp3"></audio>
 
                     <h5>Note D</h5>
-                    <input type="button" value="PLAY" onclick="playD()"></input>
-                    <input type="button" value="STOP" onclick="stopD()"></input>
+                    <input type="button" value="PLAY" onclick="playD(),
+                    activeImageD()"></input>
+                    <input type="button" value="STOP" onclick="stopD(), disableImageD()"></input>
                     <audio controls loop id="audioD" src="Note D.mp3"></audio>
 
                     <h5>Note E</h5>
-                    <input type="button" value="PLAY" onclick="playE()"></input>
-                    <input type="button" value="STOP" onclick="stopE()"></input>
+                    <input type="button" value="PLAY" onclick="playE(),
+                    activeImageE()"></input>
+                    <input type="button" value="STOP" onclick="stopE(), disableImageE()"></input>
                     <audio controls loop id="audioE" src="Note E.mp3"></audio>
 
                     <h5>Note F</h5>
-                    <input type="button" value="PLAY" onclick="playF()"></input>
-                    <input type="button" value="STOP" onclick="stopF()"></input>
+                    <input type="button" value="PLAY" onclick="playF(),
+                    activeImageF()"></input>
+                    <input type="button" value="STOP" onclick="stopF(),
+                    disableImageF()"></input>
                     <audio controls loop id="audioF" src="Note F.mp3"></audio>
 
                     <h5>Note G</h5>
-                    <input type="button" value="PLAY" onclick="playG()"></input>
-                    <input type="button" value="STOP" onclick="stopG()"></input>
+                    <input type="button" value="PLAY" onclick="playG(),
+                    activeImageG()"></input>
+                    <input type="button" value="STOP" onclick="stopG(),
+                    disableImageG()"></input>
                     <audio controls loop id="audioG" src="Note G.mp3"></audio>
 				</div>
             </main>
