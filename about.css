@@ -72,14 +72,33 @@ footer {
 .navbar .icon {
     display: none;
   }
-
-/* @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1350px) {
     
     .about-container {
         width:100%;
-        height: fit-content;
+        background-size: cover;
+    }
+    main {
+        width: 100%;
+        height:max-content;
         box-shadow: none;
         background-size: cover;
-        background-image: none;
-        }
-        } */
+        padding: 10%;
+    }
+    .sections {
+        width: 100%;
+    }
+    .navbar {
+        width: 100%;
+        background-size: cover;
+        height:max-content;
+        padding: 5%;
+        
+    }
+    #logo {
+        margin-left: 10%;
+    }
+    .topnav {
+        width: min-content;
+    }
+}
