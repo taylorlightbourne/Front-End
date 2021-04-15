@@ -101,4 +101,7 @@ footer {
     .topnav {
         width: min-content;
     }
+    footer {
+        padding-bottom: 10%;
+    }
 }

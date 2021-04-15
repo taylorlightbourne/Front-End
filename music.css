@@ -67,4 +67,37 @@ footer {
     font-size:x-large;
     padding-top: 20px;
 }
+@media screen and (max-width: 1350px) {
+    
+    .musicPage {
+        width:100%;
+        background-size: cover;
+        height: min-content;
+    }
+    main {
+        width: 90%;
+        height:max-content;
+        box-shadow: none;
+        background-size: cover;
+    }
+    #musicEmbed {
+        width: 100%;
+        margin-top: 10%;
+    }
+    .navbar {
+        width: 100%;
+        background-size: cover;
+        height:max-content;
+        padding: 5%;   
+    }
+    #logo {
+        margin-left: 10%;
+    }
+    .topnav {
+        width: min-content;
+    }
+    footer {
+        padding-bottom: 10%;
+    }
+}
 

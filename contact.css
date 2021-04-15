@@ -84,3 +84,36 @@ footer {
 h2 {
     text-shadow: 2px 2px 4px #ffff;
 }
+@media screen and (max-width: 1350px) {
+    
+    .contactPage {
+        background-size: cover;
+        height: min-content;
+    }
+    .main-container {
+        width:100%;
+        background-size: cover;
+    }
+    main {
+        width: 90%;
+        height:max-content;
+        box-shadow: none;
+        background-size: cover;
+    }
+    .navbar {
+        width: 100%;
+        background-size: cover;
+        height:max-content;
+        padding: 5%;
+        
+    }
+    #logo {
+        margin-left: 10%;
+    }
+    .topnav {
+        width: min-content;
+    }
+    footer {
+        padding-bottom: 10%;
+    }
+}

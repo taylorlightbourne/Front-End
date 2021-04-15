@@ -76,7 +76,7 @@ main {
 @media screen and (max-width: 1300px) {
     
     .welcomePage {
-        width:100%;
+        width:95%;
         height: fit-content;
         box-shadow: none;
         background-size: cover;
@@ -89,9 +89,6 @@ main {
     }
     .navbar {
         width: 100%;
-    }
-    .topnav {
-        padding-left: 5%;
     }
     #logo {
         margin-left: 25%;

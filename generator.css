@@ -136,7 +136,9 @@ h1, h3 {
         height:max-content;
         box-shadow: none;
         background-size: cover;
-        padding: 10%;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 10%;
     }
     
     .bowlPictures {
@@ -158,8 +160,7 @@ h1, h3 {
     .topnav {
         width: min-content;
     }
+    footer {
+        padding-bottom: 10%;
+    }
 }
-/* @media only screen and (max-width: 1500px) and (min-width: 1024px) {
-    .navbar {
-        margin-right: 10%;
-    } */
