@@ -16,6 +16,7 @@
     justify-content: space-between;
     padding-right: 40px;
     box-shadow: 5px 5px 5px grey;
+    overflow: hidden;
 }
 .navbar #logo {
     padding-left: 100px;
@@ -50,7 +51,7 @@ main {
     box-shadow: 10px 10px 5px grey;
     overflow: hidden;   
     letter-spacing: 1px;
-   
+    
 }
 ul, p {
     font-size: large;
@@ -68,4 +69,38 @@ footer {
     font-size:x-large;
     padding-top: 20px;
 }
+.navbar .icon {
+    display: none;
+  }
 
+@media screen and (max-width: 1500px) {
+.navbar {
+    height: 10%;
+}
+.topnav a {
+    float: none;
+    width: 100%;
+}
+.about-container {
+    background-size: cover;
+}
+main {
+    width:100%;
+    background: none;
+    height: fit-content;
+    box-shadow: none;
+}
+.sections {
+    width: 100%;
+}
+}
+@media screen and (max-width: 900px) {
+    .navbar {
+        height: fit-content;
+        width: fit-content;
+    }
+    /* .topnav {
+        width: 100%;
+
+    } */
+}

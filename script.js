@@ -215,6 +215,8 @@ function disableImageG() {
         document.getElementById("G").src = "noteG.png";
     }
 }
+//about Page
+
 // Contact Us Page
 
 
