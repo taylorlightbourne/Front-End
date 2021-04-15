@@ -73,30 +73,13 @@ footer {
     display: none;
   }
 
-@media screen and (max-width: 1500px) {
-.navbar {
-    height: 10%;
-}
-.topnav a {
-    float: none;
-    width: 100%;
-}
-.about-container {
-    background-size: cover;
-}
-main {
-    width:100%;
-    background: none;
-    height: fit-content;
-    box-shadow: none;
-}
-.sections {
-    width: 100%;
-}
-}
-@media screen and (max-width: 900px) {
-    .navbar {
+/* @media screen and (max-width: 1300px) {
+    
+    .about-container {
+        width:100%;
         height: fit-content;
-        width: fit-content;
-    }
-}
+        box-shadow: none;
+        background-size: cover;
+        background-image: none;
+        }
+        } */
