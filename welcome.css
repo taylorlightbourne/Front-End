@@ -73,4 +73,28 @@ main {
     padding-top: 20px;
     font-size:x-large;
 }
-
+@media screen and (max-width: 1300px) {
+    
+    .welcomePage {
+        width:100%;
+        height: fit-content;
+        box-shadow: none;
+        background-size: cover;
+    }
+    .main-container {
+        background-size: cover;
+    }
+    .welcome-contents {
+        height: fit-content;
+    }
+    .navbar {
+        width: 100%;
+    }
+    .topnav {
+        padding-left: 5%;
+    }
+    #logo {
+        margin-left: 25%;
+        margin-bottom: 5%;
+    }
+    }
