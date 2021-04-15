@@ -85,6 +85,27 @@ audio {
     text-align: center;
     flex-direction: column;
 }
+#containerA {
+    text-shadow: 2px 2px 4px purple;
+}
+#containerB {
+    text-shadow: 2px 2px 4px violet;
+}
+#containerC {
+    text-shadow: 2px 2px 4px red;
+}
+#containerD {
+    text-shadow: 2px 2px 4px rgb(221, 148, 12);
+}
+#containerE {
+    text-shadow: 2px 2px 4px rgb(221, 221, 3);
+}
+#containerF {
+    text-shadow: 2px 2px 4px green;
+}
+#containerG {
+    text-shadow: 2px 2px 4px navy;
+}
 h5 {
     font-weight: bolder;
     font-size: xx-large;
@@ -93,6 +114,9 @@ p {
     letter-spacing: 2px;
     font-size: large;
     margin: 2px;
+}
+h1, h3 {
+    text-shadow: 2px 2px 4px navy;
 }
 .footer {
     font-size:x-large;
