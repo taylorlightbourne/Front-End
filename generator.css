@@ -43,7 +43,7 @@
 main {
     width: 1500px;
     height: 750px;
-    background-image: url(sparklebackground.png);
+    background-image: url(assests/sparklebackground.png);
     background-repeat: no-repeat;
     background-size: 110%;
     padding: 25px;
