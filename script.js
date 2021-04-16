@@ -73,146 +73,146 @@ function stopG() {
 // change picture when play
 
 function activeImageA() {
-    if (document.getElementById("A").src == "noteA-glow.png") 
+    if (document.getElementById("A").src == "assets/noteA-glow.png") 
         {
-            document.getElementById("A").src = "noteA-glow.png";
+            document.getElementById("A").src = "assets/noteA-glow.png";
         }
         else 
         {
-            document.getElementById("A").src = "noteA-glow.png";
+            document.getElementById("A").src = "assets/noteA-glow.png";
         }
     }
 function activeImageB() {
-    if (document.getElementById("B").src == "noteB-glow.png") 
+    if (document.getElementById("B").src == "assets/noteB-glow.png") 
         {
-            document.getElementById("B").src = "noteB-glow.png";
+            document.getElementById("B").src = "assets/noteB-glow.png";
         }
         else 
         {
-            document.getElementById("B").src = "noteB-glow.png";
+            document.getElementById("B").src = "assets/noteB-glow.png";
         }
     }
 function activeImageC() {
-    if (document.getElementById("C").src == "noteC-glow.png") 
+    if (document.getElementById("C").src == "assets/noteC-glow.png") 
         {
-            document.getElementById("C").src = "noteC-glow.png";
+            document.getElementById("C").src = "assets/noteC-glow.png";
         }
         else 
         {
-            document.getElementById("C").src = "noteC-glow.png";
+            document.getElementById("C").src = "assets/noteC-glow.png";
         }
     }
 function activeImageD() {
-    if (document.getElementById("D").src == "noteD-glow.png") 
+    if (document.getElementById("D").src == "assets/noteD-glow.png") 
     {
-        document.getElementById("D").src = "noteD-glow.png";
+        document.getElementById("D").src = "assets/noteD-glow.png";
     }
     else 
     {
-        document.getElementById("D").src = "noteD-glow.png";
+        document.getElementById("D").src = "assets/noteD-glow.png";
     }
 }
 function activeImageE() {
-    if (document.getElementById("E").src == "noteE-glow.png") 
+    if (document.getElementById("E").src == "assets/noteE-glow.png") 
     {
-        document.getElementById("E").src = "noteE-glow.png";
+        document.getElementById("E").src = "assets/noteE-glow.png";
     }
     else 
     {
-        document.getElementById("E").src = "noteE-glow.png";
+        document.getElementById("E").src = "assets/noteE-glow.png";
     }
 }
 function activeImageF() {
-    if (document.getElementById("F").src == "noteF-glow.png") 
+    if (document.getElementById("F").src == "assets/noteF-glow.png") 
         {
-            document.getElementById("F").src = "noteF-glow.png";
+            document.getElementById("F").src = "assets/noteF-glow.png";
         }
         else 
         {
-            document.getElementById("F").src = "noteF-glow.png";
+            document.getElementById("F").src = "assets/noteF-glow.png";
         }
     }
 function activeImageG() {
-    if (document.getElementById("G").src == "noteG-glow.png") 
+    if (document.getElementById("G").src == "assets/noteG-glow.png") 
     {
-        document.getElementById("G").src = "noteG-glow.png";
+        document.getElementById("G").src = "assets/noteG-glow.png";
     }
     else 
     {
-        document.getElementById("G").src = "noteG-glow.png";
+        document.getElementById("G").src = "assets/noteG-glow.png";
     }
 }
 
 // change picture back to original when stop
 
 function disableImageA() {
-    if (document.getElementById("A").src == "noteA.png") 
+    if (document.getElementById("A").src == "assets/noteA.png") 
         {
-            document.getElementById("A").src = "noteA.png";
+            document.getElementById("A").src = "assets/noteA.png";
         }
         else 
         {
-            document.getElementById("A").src = "noteA.png";
+            document.getElementById("A").src = "assets/noteA.png";
         }
     }
 function disableImageB() {
-    if (document.getElementById("B").src == "noteB.png") 
+    if (document.getElementById("B").src == "assets/noteB.png") 
         {
-            document.getElementById("B").src = "noteB.png";
+            document.getElementById("B").src = "assets/noteB.png";
         }
         else 
         {
-            document.getElementById("B").src = "noteB.png";
+            document.getElementById("B").src = "assets/noteB.png";
         }
     }
 function disableImageC() {
-    if (document.getElementById("C").src == "noteC.png") 
+    if (document.getElementById("C").src == "assets/noteC.png") 
         {
-            document.getElementById("C").src = "noteC.png";
+            document.getElementById("C").src = "assets/noteC.png";
         }
         else 
         {
-            document.getElementById("C").src = "noteC.png";
+            document.getElementById("C").src = "assets/noteC.png";
         }
     }
 function disableImageD() {
-    if (document.getElementById("D").src == "noteD.png") 
+    if (document.getElementById("D").src == "assets/noteD.png") 
     {
-        document.getElementById("D").src = "noteD.png";
+        document.getElementById("D").src = "assets/noteD.png";
     }
     else 
     {
-        document.getElementById("D").src = "noteD.png";
+        document.getElementById("D").src = "assets/noteD.png";
     }
 }
 function disableImageE() {
-    if (document.getElementById("E").src == "noteE.png") 
+    if (document.getElementById("E").src == "assets/noteE.png") 
     {
-        document.getElementById("E").src = "noteE.png";
+        document.getElementById("E").src = "assets/noteE.png";
     }
     else 
     {
-        document.getElementById("E").src = "noteE.png";
+        document.getElementById("E").src = "assets/noteE.png";
     }
 }
 function disableImageF() {
-    if (document.getElementById("F").src == "noteF.png") 
+    if (document.getElementById("F").src == "assets/noteF.png") 
         {
-            document.getElementById("F").src = "noteF.png";
+            document.getElementById("F").src = "assets/noteF.png";
         }
         else 
         {
-            document.getElementById("F").src = "noteF.png";
+            document.getElementById("F").src = "assets/noteF.png";
         }
     }
 function disableImageG() {
-    if (document.getElementById("G").src == "noteG.png") 
+    if (document.getElementById("G").src == "assets/noteG.png") 
     {
-        document.getElementById("G").src = "noteG.png";
+        document.getElementById("G").src = "assets/noteG.png";
     }
     else 
     {
-        document.getElementById("G").src = "noteG.png";
+        document.getElementById("G").src = "assets/noteG.png";
     }
 }
 //about Page

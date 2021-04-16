@@ -42,7 +42,7 @@
 main {
     width: 1500px;
     height: 750px;
-    background-image: url('assests/chakrabackground.png');
+    background-image: url('assets/chakrabackground.png');
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 25px;
