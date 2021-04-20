@@ -2,6 +2,8 @@
 
 <h1>Bol Sonore - Crystal Singing Bowl Generator</h1>
 
+<p>Medium Article: https://taylorlightbourne.medium.com/bol-sonore-1efc5b3397d4</p>
+
 <h3>Languages: </h3>
 <ul>
   <li>HTML</li>
